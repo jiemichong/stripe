@@ -1,0 +1,10 @@
+FROM python:3.9-slim
+WORKDIR /usr/src/server
+COPY requirements.txt ./
+COPY ci/requirements.test.txt ./
+COPY src/* ./src/
+COPY src/static/data/prices.json ./src/static/data/
+COPY tests/*.py ./tests/
+RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install --no-cache-dir -r requirements.test.txt
+CMD python -m pytest

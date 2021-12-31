@@ -1,0 +1,44 @@
+{
+    "Room 5": {
+        "Price ID": "price_1JpUviLvhVhuLNbqn63mT5No",
+        "Product ID": "prod_KUTtuscNYaNK3t",
+        "Product Name": "Room 5",
+        "Amount": "10000",
+        "Currency": "sgd"
+    },
+    "Room 4": {
+        "Price ID": "price_1JpUvELvhVhuLNbqQg3QcxJ7",
+        "Product ID": "prod_KUTsSe1wTIRXrD",
+        "Product Name": "Room 4",
+        "Amount": "30000",
+        "Currency": "sgd"
+    },
+    "Room 3": {
+        "Price ID": "price_1JpUujLvhVhuLNbqtOXEn1hv",
+        "Product ID": "prod_KUTsBh3L325aI7",
+        "Product Name": "Room 3",
+        "Amount": "20000",
+        "Currency": "sgd"
+    },
+    "Room 2": {
+        "Price ID": "price_1JpUu4LvhVhuLNbqH92MDlIP",
+        "Product ID": "prod_KUTr1PUXnvi7I7",
+        "Product Name": "Room 2",
+        "Amount": "20000",
+        "Currency": "sgd"
+    },
+    "Room 1": {
+        "Price ID": "price_1JpUtSLvhVhuLNbqL8rIYu8w",
+        "Product ID": "prod_KUTrVljLbApmxJ",
+        "Product Name": "Room 1",
+        "Amount": "10000",
+        "Currency": "sgd"
+    },
+    "demo": {
+        "Price ID": "price_1JnzdvLvhVhuLNbqYU9TAFoV",
+        "Product ID": "prod_KSvUujJS0adOXe",
+        "Product Name": "demo",
+        "Amount": "500",
+        "Currency": "sgd"
+    }
+}

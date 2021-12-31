@@ -1,0 +1,12 @@
+version: "3.8"
+
+services:
+  ##################################
+  # Pytest on Stripe Service
+  ##################################
+  stripe-pytest:
+    build:
+      context: ../
+      dockerfile: ci/Dockerfile.test
+    env_file:
+      - ../dev.env

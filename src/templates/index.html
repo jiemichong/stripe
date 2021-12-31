@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>PotatoeyWebsite</title>
+
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/normalize.css') }}" />
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/global.css') }}" />
+  <script src="https://js.stripe.com/v3/"></script>
+</head>
+
+<body>
+  <div class="sr-root">
+    <div class="sr-main">
+      <section class="container">
+        <div>
+          <form action="/create-checkout-session/1" method="post">
+            <button name="Room1" value="Book Room 1">Book Room 1</button>
+          </form>
+          <form action="/create-checkout-session/2" method="post">
+            <button name="Room2" value="Book Room 2">Book Room 2</button>
+          </form>
+          <form action="/create-checkout-session/3" method="post">
+            <button name="Room3" value="Book Room 3">Book Room 3</button>
+          </form>
+          <form action="/create-checkout-session/4" method="post">
+            <button name="Room4" value="Book Room 4">Book Room 4</button>
+          </form>
+          <form action="/create-checkout-session/5" method="post">
+            <button name="Room5" value="Book Room 5">Book Room 5</button>
+          </form>
+      </section>
+
+      <div id="error-message"></div>
+    </div>
+  </div>
+</body>
+
+</html>
